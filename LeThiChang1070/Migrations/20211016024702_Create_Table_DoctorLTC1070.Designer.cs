@@ -3,14 +3,16 @@ using LeThiChang1070.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LeThiChang1070.Migrations
 {
     [DbContext(typeof(LeThiChang1070Context))]
-    partial class LeThiChang1070ContextModelSnapshot : ModelSnapshot
+    [Migration("20211016024702_Create_Table_DoctorLTC1070")]
+    partial class Create_Table_DoctorLTC1070
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,22 +36,6 @@ namespace LeThiChang1070.Migrations
                     b.HasKey("DortorID");
 
                     b.ToTable("DoctorLTC1070");
-                });
-
-            modelBuilder.Entity("LeThiChang1070.Models.MotherLTC1070", b =>
-                {
-                    b.Property<string>("MotherID")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<string>("MotherName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("MotherID");
-
-                    b.ToTable("MotherLTC1070");
                 });
 
             modelBuilder.Entity("LeThiChang1070.Models.PersonLTC1070", b =>

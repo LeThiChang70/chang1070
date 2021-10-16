@@ -1,0 +1,41 @@
+﻿@model IEnumerable<LeThiChang1070.Models.MotherLTC1070>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <label>Mã số </label>
+            </th>
+            <th>
+                <labe>Họ và tên</labe>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MotherID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MotherName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MotherID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MotherID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MotherID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

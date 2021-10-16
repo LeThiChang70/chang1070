@@ -17,5 +17,9 @@ namespace LeThiChang1070.Data
         public DbSet<LeThiChang1070.Models.PersonLTC1070> PersonLTC1070 { get; set; }
 
         public DbSet<LeThiChang1070.Models.TeacherLTC1070> TeacherLTC1070 { get; set; }
+
+        public DbSet<LeThiChang1070.Models.DoctorLTC1070> DoctorLTC1070 { get; set; }
+
+        public DbSet<LeThiChang1070.Models.MotherLTC1070> MotherLTC1070 { get; set; }
     }
 }
