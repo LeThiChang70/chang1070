@@ -149,3 +149,8 @@ C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.
 C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\Razor\Views\PersonLTC1070\Edit.cshtml.g.cs
 C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\Razor\Views\PersonLTC1070\Index.cshtml.g.cs
 C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\LeThiChang1070.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\Razor\Views\TeacherLTC1070\Create.cshtml.g.cs
+C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\Razor\Views\TeacherLTC1070\Delete.cshtml.g.cs
+C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\Razor\Views\TeacherLTC1070\Details.cshtml.g.cs
+C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\Razor\Views\TeacherLTC1070\Edit.cshtml.g.cs
+C:\Users\Admin\Downloads\chang1070\LeThiChang1070\LeThiChang1070\obj\Debug\net5.0\Razor\Views\TeacherLTC1070\Index.cshtml.g.cs
